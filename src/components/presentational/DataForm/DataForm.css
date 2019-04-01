@@ -1,0 +1,35 @@
+.DataForm {
+    width: 100%;
+}
+
+.DataForm button {
+    width: 90%;
+
+    background-color: #f2f2f2;
+
+    padding-left: var(--spacing-default);
+    padding-right: var(--spacing-default);
+    padding-top: var(--spacing-large);
+    padding-bottom: var(--spacing-large);
+    margin-bottom: var(--spacing-large);
+    
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 0;
+}
+
+.DataForm button:hover {
+    background-color: rgb(26,26,26);
+    color: white;
+    border: 0;
+}
+
+.DataForm .preview {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.DataForm .preview .json-input {
+    width: 50%;
+}

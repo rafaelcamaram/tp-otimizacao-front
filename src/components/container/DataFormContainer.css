@@ -1,0 +1,9 @@
+#DataFormContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#DataFormContainer .json-input {
+    width: 50%;
+}
